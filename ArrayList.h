@@ -5,6 +5,7 @@
 //  Created by Han Sol Lee on 9/14/16.
 //  Copyright © 2016 Solly. All rights reserved.
 //
+#include "Point.h"
 
 #ifndef ArrayList_h
 #define ArrayList_h
@@ -14,7 +15,7 @@
 
 // ArrayList Definition
 #define LIST_LEN 100
-typedef int Data;
+typedef Point *Data;
 
 typedef struct _ArrayList {
     Data arr[LIST_LEN];
